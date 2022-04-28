@@ -1,11 +1,13 @@
 import Contador from "./components/Contador";
 import ContadorMejorado from "./components/ContadorMejorado";
+import CrudApi from "./components/CrudApi";
 import ShoppingCart from "./components/ShoppingCart";
 
 function App() {
   return (
     <div>
       <h1>Use reducers</h1>
+      <CrudApi />
       <hr />
       <ShoppingCart />
       <hr />
